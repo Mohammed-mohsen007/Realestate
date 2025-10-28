@@ -11,7 +11,7 @@
 
 <body>
     <!-- Section Home Page -->
-    <div class="bg-[#F8F4F0] p-12">
+    <div class="bg-[#F8F4F0] p-6 sm:p-12 mx-auto max-w-7xl">
         <header id="sectionhomepage">
             <!-- Section main home page -->
 
@@ -19,7 +19,7 @@
 
             <div class="bg-card-image rounded-3xl">
                 <div class="bg-transprant p-2">
-                    <nav class="text-white px-8 py-4 flex justify-between items-center rounded-t-lg">
+                    <nav class="text-white px-4 sm:px-8 py-4 flex justify-between items-center rounded-t-lg">
 
                         <!-- logo  -->
                         <div class="flex items-center space-x-2 ">
@@ -47,14 +47,10 @@
 
                         </ul>
                         <div class="flex space-x-5">
-                            <a href="" class="hover:text-blue-400"><img src="./images/twitter.png" class="w-[20px]"
-                                    alt=""></a>
-                            <a href="" class="hover:text-blue-400"><img src="./images/path.phg"
-                                    class="w-[20px] alt="></a>
-                            <a href="" class="hover:text-blue-400"><img src="./images/youtube.png"
-                                    class="w-[20px] alt="></a>
-                            <a href="" class="hover:text-blue-400"><img src="./images/search.png"
-                                    class="w-[20px] alt="></a>
+                            <a href="" class="hover:opacity-80"><img src="./images/twitter.png" class="w-[20px]" alt="Twitter"></a>
+                            <a href="" class="hover:opacity-80"><img src="./images/path.png" class="w-[20px]" alt="Path"></a>
+                            <a href="" class="hover:opacity-80"><img src="./images/youtube.png" class="w-[20px]" alt="YouTube"></a>
+                            <a href="" class="hover:opacity-80"><img src="./images/search.png" class="w-[20px]" alt="Search"></a>
                         </div>
                     </nav>
                 </div>
@@ -67,7 +63,7 @@
 
                 <div>
                     <p
-                        class="font-[League Spartan, sans-serif] text-[rgb(255,255,255)] text-[84px] leading-[81px] normal font-[400] text-center">
+                        class="font-[League Spartan, sans-serif] text-[rgb(255,255,255)] text-4xl sm:text-6xl md:text-7xl leading-tight font-[400] text-center">
                         Find the Perfect <br>
                         Property for Your <br>
                         Lifestyle</p>
@@ -75,7 +71,7 @@
 
                 <div class="text-center">
                     <button
-                        class="text-[rgb(255,255,255)] bg-[#34AFAF] hover:bg-[#34A0A4] font-[League Spartan, sans-serif] p-4 rounded-4xl text-[16px] w-[240px] m-15 mb-30">START
+                        class="text-[rgb(255,255,255)] bg-[#34AFAF] hover:bg-[#34A0A4] font-[League Spartan, sans-serif] p-4 rounded-4xl text-[16px] w-full sm:w-[240px] m-15 mb-30">START
                         SEARCHING</button>
                 </div>
 
@@ -97,7 +93,7 @@
                         Our expert team provides comprehensive real estate solutions <br> tailored to your needs
                     </p>
                     <hr class="m-auto text-[#34A0A4] pb-20">
-                    <div class="sectionwwd-card flex space-x-20">
+                    <div class="sectionwwd-card grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-16 px-5">
 
                         <div>
                             <p class="text-[#34A0A4] pl-5 pt-3">01</p>
@@ -174,10 +170,10 @@
                 </div>
 
                 <!-- feature images container -->
-                <div class="flex pb-10">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-5 pb-10">
 
                     <div class="pl-10">
-                        <img src="./images/feature-01.jpg" alt="" class="w-[50vh] rounded-xl">
+                        <img src="./images/feature-01.jpg" alt="" class="w-full rounded-xl">
                         <p class="text-[rgb(0,0,0)] pt-3">APARTMENT - QUEENS</p>
                         <P
                             class="font-[League Spartan, sans-serif] text-[24px] font-small leading-[34px] text-[0,0,0] pt-3">
@@ -191,7 +187,7 @@
                     </div>
 
                     <div class="pl-10">
-                        <img src="./images/feature-01.jpg" alt="" class="w-[50vh] rounded-xl">
+                        <img src="./images/feature-01.jpg" alt="" class="w-full rounded-xl">
                         <p class="text-[rgb(0,0,0)] pt-3">APARTMENT - QUEENS</p>
                         <P
                             class="font-[League Spartan, sans-serif] text-[24px] font-small leading-[34px] text-[0,0,0] pt-3">
@@ -205,7 +201,7 @@
                     </div>
 
                     <div class="pl-10">
-                        <img src="./images/feature-01.jpg" alt="" class="w-[50vh] rounded-xl">
+                        <img src="./images/feature-01.jpg" alt="" class="w-full rounded-xl">
                         <p class="text-[rgb(0,0,0)] pt-3">APARTMENT - QUEENS</p>
                         <P
                             class="font-[League Spartan, sans-serif] text-[24px] font-small leading-[34px] text-[0,0,0] pt-3">
@@ -224,7 +220,7 @@
         <!-- Section Clients Feedbacks -->
         <section>
             <div id="sectionclientsfeedback">
-                <div class="flex space-x-8 bg-white rounded-xl mt-10 p-12">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-white rounded-xl mt-10 p-6 sm:p-12">
                     <div>
                         <h2
                             class="font-[League Spartan, sans-serif] text-[55px] text-[rgb(0,0,0)] leading-[60px] normal font-[500] pt-5">
@@ -251,8 +247,8 @@
 
                     </div>
                     <div>
-                        <div class="border border-gray-300 rounded-xl p-8">
-                            <img src="./images/stars.svg" class="w-[8vw] pb-5" alt="">
+                        <div class="border border-gray-300 rounded-xl p-6 sm:p-8">
+                            <img src="./images/stars.svg" class="w-24 sm:w-32 pb-5" alt="5 stars">
                             <p>"Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Mauris id convallis neque. Nam
                                 scelerisque placerat orci. Maecenas at pulvinar
@@ -264,8 +260,8 @@
                         </div>
 
 
-                        <div class="border border-gray-300 rounded-xl p-8 mt-10">
-                            <img src="./images/stars.svg" class="w-[8vw] pb-5" alt="">
+                        <div class="border border-gray-300 rounded-xl p-6 sm:p-8 mt-6 sm:mt-10">
+                            <img src="./images/stars.svg" class="w-24 sm:w-32 pb-5" alt="5 stars">
                             <p>"Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Mauris id convallis neque. Nam
                                 scelerisque placerat orci. Maecenas at pulvinar
@@ -284,9 +280,9 @@
         <!-- section connection people -->
         <section>
             <div id="sectionclientsfeedback">
-                <div class="bg-white mt-15 clints-container rounded-2xl space-x-15 p-10">
+                <div class="bg-white mt-15 clints-container rounded-2xl p-6 sm:p-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
                     <div>
-                        <img src="./images/connecting-with-customers.jpg" class="w-[90vw] h-[100vh] rounded-xl" alt="">
+                        <img src="./images/connecting-with-customers.jpg" class="w-full h-auto rounded-xl" alt="Connecting with customers">
                     </div>
                     <div>
                         <div class="">
@@ -321,7 +317,7 @@
 
         <section>
             <div id="sectioncontactus">
-                <div class="bg-[url(hero-bg.jpg)] bg-cover h-[100vh] mt-10 rounded-xl p-15 h-[120vh]">
+                <div class="bg-[url(hero-bg.jpg)] bg-cover bg-center min-h-[60vh] sm:min-h-[80vh] lg:min-h-[100vh] mt-10 rounded-xl p-6 sm:p-10 lg:p-15">
 
                     <div class="bg-white rounded-xl p-10 pt-15">
                         <p class="p-6 text-[rgba(0,0,0,0.65)] text-center">CONTACT US</p>
@@ -351,7 +347,7 @@
 
                             <div class="text-center">
                                 <button
-                                    class="text-[rgb(255,255,255)] bg-[#34AFAF] hover:bg-[#34A0A4] font-[League Spartan, sans-serif] p-4 rounded-4xl text-[16px] mt-7 mb-10">
+                                    class="text-[rgb(255,255,255)] bg-[#34AFAF] hover:bg-[#34A0A4] font-[League Spartan, sans-serif] p-4 rounded-4xl text-[16px] mt-7 mb-10 w-full sm:w-auto">
                                     REQUEST A CALL BACK</button>
                             </div>
                         </form>
@@ -366,12 +362,12 @@
         <section>
             <div class="homepagesectionlast">
 
-                <div class="flex pt-15">
-                    <div class="mr-10">
-                        <img src="./images/footer-logo.svg" class="w-[20vw]" alt="">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-15">
+                    <div>
+                        <img src="./images/footer-logo.svg" class="w-48 sm:w-60" alt="Company logo">
                     </div>
 
-                    <div class="ml-10">
+                    <div>
                         <p class="text-2xl p-2">About Us</p>
                         <p class="text-gray-500 p-2">At Real Estate, we
                             pride ourselves on
@@ -383,7 +379,7 @@
                         </p>
                     </div>
 
-                    <div class="ml-10">
+                    <div>
                         <p class="text-2xl p-2">Contact Info</p>
                         <p class="text-[#34A0A4] p-2">13,Fifthe Avenue, New
                             York, NY 101660
@@ -392,17 +388,17 @@
                         </p>
                     </div>
 
-                    <div class="ml-10">
+                    <div>
                         <p class="text-2xl p-2">Property Search</p>
                         <p class="text-gray-500 p-2">Lorem ipsum dolor sit amet,
                             consectetur elit. Donec
                             faucibus, quam sed.
                         </p>
-                        <input type="search" placeholder="Search Properties" class="bg-white text-gray-800">
+                        <input type="search" placeholder="Search Properties" class="bg-white text-gray-800 w-full p-2 rounded border">
                         <br>
                         <button
-                            class="text-[rgb(255,255,255)] bg-[#34AFAF] hover:bg-[#34A0A4] font-[League Spartan, sans-serif] p-5 rounded-4xl text-[16px] mb-10 w-[80px]">
-                            <img src="./images/search.png" class="items-center" alt=""></button>
+                            class="text-[rgb(255,255,255)] bg-[#34AFAF] hover:bg-[#34A0A4] font-[League Spartan, sans-serif] p-3 rounded-4xl text-[16px] mb-10 w-full sm:w-[120px] flex items-center justify-center gap-2">
+                            <img src="./images/search.png" class="w-5 h-5" alt="Search"> Search</button>
                     </div>
 
                 </div>
@@ -413,34 +409,27 @@
 
         <!-- section copyright -->
         <footer>
-            <div class="flex justify-between">
+            <div class="flex flex-col sm:flex-row gap-4 sm:gap-0 justify-between items-center">
                 <div>
                     <p>Copyright &copy; 2025 Real Estate Company</p>
                 </div>
 
 
                 <div class="flex space-x-5">
-                    <a href="" class="hover:text-blue-400 test-[#34AFAF] hover:text-[#34A0A4]"><img
-                            src="./images/twitter.png" class="w-[20px]" alt=""></a>
-                    <a href="" class="hover:text-blue-400"><img src="./images/path.phg" class="w-[20px] alt="></a>
-                    <a href="" class="hover:text-blue-400"><img src="./images/youtube.png" class="w-[20px] alt="></a>
-                    <a href="" class="hover:text-blue-400"><img src="./images/search.png" class="w-[20px] alt="></a>
+                    <a href="" class="hover:opacity-80"><img src="./images/twitter.png" class="w-[20px]" alt="Twitter"></a>
+                    <a href="" class="hover:opacity-80"><img src="./images/path.png" class="w-[20px]" alt="Path"></a>
+                    <a href="" class="hover:opacity-80"><img src="./images/youtube.png" class="w-[20px]" alt="YouTube"></a>
+                    <a href="" class="hover:opacity-80"><img src="./images/search.png" class="w-[20px]" alt="Search"></a>
                 </div>
             </div>
         </footer>
 
-        <div class="flex justify-end">
- <button class="bg-blue-500 fixed top-[50%] p-3 w-30">Button</button>
-</div>
-
-<div class="flex justify-end">
- <button class="bg-blue-500 fixed top-[40%] p-3 w-30">Button</button>
-</div>
-   
-<div class="flex justify-end">
- <button class="bg-blue-500 fixed bottom-[0] p-1 w-10 transition delay-100 duration-300 ease-in-out hover:-translate-z-10 hover:scale-110 hover:bg-indigo-500"><a href="#sectionhomepage">Up</a></button>
-</div>
-<div class="mb-100"></div>
+        <div class="fixed right-4 bottom-4 flex flex-col gap-3 z-50">
+            <button class="bg-blue-500 p-3 w-30 rounded text-white shadow sm:block">Button</button>
+            <button class="bg-blue-500 p-3 w-30 rounded text-white shadow sm:block">Button</button>
+            <a href="#sectionhomepage" class="bg-blue-500 p-2 w-10 rounded text-white shadow transition delay-100 duration-300 ease-in-out hover:scale-110 hover:bg-indigo-500 text-center">Up</a>
+        </div>
+        <div class="mb-24"></div>
     </div>
 
 </body>
